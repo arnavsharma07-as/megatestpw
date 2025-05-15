@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      .head1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .head1left {
+        display: flex;
+        align-items: center;
+      }
+      .head1center {
+        display: flex;
+        align-items: center;
+      }
+      .head1center select {
+        margin-left: 30px;
+        margin-right: 30px;
+        border: 0px;
+      }
+      .body1 {
+        display: flex;
+
+        justify-content: space-around;
+      }
+      .body1c {
+        display: flex;
+        width: 250px;
+        height: 80px;
+        background-color: #c0f4f9;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="head1">
+        <div class="head1left" style="margin: 0px">
+          <img
+            src="logo.png"
+            style="height: 30px; width: 30px; margin-left: 10px"
+          />
+
+          <p style="font-size: 30px">
+            <span
+              style="
+                color: orange;
+                font-weight: bold;
+
+                font-size: 30px;
+              "
+              >E</span
+            >duport
+          </p>
+          <button
+            style="
+              color: blue;
+              background-color: #c0f4f9;
+              border: none;
+              border-radius: 5px;
+              height: 30px;
+              margin-left: 10px;
+            "
+          >
+            <span>&bull;</span><span>&bull;</span>
+            <span>&bull;</span>
+            <span>&bull;</span>Category
+          </button>
+        </div>
+        <div class="head1center">
+          <select>
+            <option>Demos</option>
+          </select>
+          <select>
+            <option>Pages</option>
+          </select>
+          <select>
+            <option>Accounts</option>
+          </select>
+          <select>
+            <option>Megamenu</option>
+          </select>
+          <img src="3dot.png" style="height: 20px" />
+        </div>
+        <div class="head1right">
+          <input type="text" placeholer="search" />
+          <span style="position: relative; left: -25px">🔍</span>
+          <img src="usericon.png" style="height: 25px; margin-top: 10px" />
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="body1">
+        <div class="body1c">
+          <img src="computer.jpg" style="height: 70px" />
+          <div class="body1ctext">
+            <p>10k</p>
+            <p>Online courses</p>
+          </div>
+        </div>
+        <div class="body1c">
+          <img src="ser.png" style="height: 70px" />
+          <div class="body1ctext">
+            <p>200+</p>
+            <p>Expert tutoring</p>
+          </div>
+        </div>
+        <div class="body1c">
+          <img src="scholar.jpg" style="height: 70px" />
+          <div class="body1ctext">
+            <p>60k</p>
+            <p>Online students</p>
+          </div>
+        </div>
+        <div class="body1c">
+          <img src="computer.jpg" style="height: 70px" />
+          <div class="body1ctext">
+            <p>6k</p>
+            <p>certified courses</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
